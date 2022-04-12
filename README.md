@@ -1,13 +1,13 @@
 # FAANG-stock-predicition
 stock prediction of FAANG using python libraries and ML transformations
 Code written by Agnes Folga 
-1. Dataset
+# 1. Dataset
 FAANG (FB,Amazon,Apple,Netflix,Google) Stocks 📈 | Kaggle
 This dataset from Kaggle features the open-high-low-close (OHLC) data of the top 5
 technology companies stock in the US. Each company has its own CSV file with
 columns Data, Opening price of the day, Highest price of the day, Lowest price of the
 day, Closing price of the day, and Trading volume for the day.
-2. Task/Problem
+# 2. Task/Problem
 Using this data, we can try to predict the closing stock price for each company. 
 Possible preprocessing techniques include firstly eliminating any outlier data points.
 Then, we will trim the dataset by only keeping the closing data (float) and date (Datetime
@@ -25,7 +25,7 @@ general as this model can possibly predict the stock price for tech companies th
 an interest in working for. Many individuals have an interest in the stock market, and this
 could be useful to them. Beyond individuals with an interest, actual investment bankers
 and potential investors can try to maximize their financial payoffs by using such models.
-3. Plausible ML technique
+# 3. Plausible ML technique
 We can use a linear regression model to predict the closing stock price for each
 company. In machine learning, we must use 2 sets of data to have the model be
 effective: testing and training data. The scikit-learn test_train_split function in python will
